@@ -1,0 +1,21 @@
+No Command           Some Parammeter Can Use On
+1.  Set-Location     [-Path <String>]
+2.  New-Item
+3.  Get-ChildItem
+4.  Get-Content
+5.  Rename-Item
+6.  Move-Item
+7.  Copy-Item
+8.  Remove-Item
+9.  Clear-History
+10. Get-Command
+11. Get-Clipboard
+12. Set-Clipboard
+13. Start-Process
+14. Get-Process
+15. Stop-Process
+16. Get-Timezone
+17. Clear-RecycleBin
+18. Restart-Computer
+19. Restart-Service
+20. Rename-Computer
