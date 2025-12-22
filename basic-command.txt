@@ -1,5 +1,5 @@
-No Command           Some Parammeter Can Use On
-1.  Set-Location     [-Path <String>]
+No  |Command        |Some Parammeter Can Use On | Parammeter Desc                             | Command Desc
+1.  Set-Location     [[-Path] <String>]           fill with path of the destination directory   To change current working directory
 2.  New-Item
 3.  Get-ChildItem
 4.  Get-Content
