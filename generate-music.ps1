@@ -64,3 +64,5 @@ foreach($artist in $artists){
         Set-Location ".."
     }
 }
+
+Set-Location ".."
