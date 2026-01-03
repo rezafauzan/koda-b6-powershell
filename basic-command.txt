@@ -1,21 +1,21 @@
-No  |Command        |Some Parammeter Can Use On | Parammeter Desc                             | Command Desc
-1.  Set-Location     [[-Path] <String>]           fill with path of the destination directory   To change current working directory
-2.  New-Item
-3.  Get-ChildItem
-4.  Get-Content
-5.  Rename-Item
-6.  Move-Item
-7.  Copy-Item
-8.  Remove-Item
-9.  Clear-History
-10. Get-Command
-11. Get-Clipboard
-12. Set-Clipboard
-13. Start-Process
-14. Get-Process
-15. Stop-Process
-16. Get-Timezone
-17. Clear-RecycleBin
-18. Restart-Computer
-19. Restart-Service
-20. Rename-Computer
+No  |Command        |Some Parammeter Can Use On              |Parammeter Desc                                                    | Command Desc
+1.  Set-Location     [[-Path] <String>]                       fill with path of the destination directory                          Change current working directory
+2.  New-Item	     [Item-Type <String>]                     fill with desired item type want to be created by default is file    Create new item it can be file,directory,SymbolycLink, Etc
+3.  Get-ChildItem    [[-Path] <string[]>]                     fill with path of the destination directory to show child item       Show Child Item of the directory
+4.  Get-Content      [-Path <string[]>]                                                                                            read or display file content
+5.  Rename-Item      [-Path] <String> [-NewName <String>]     fill with file/folder path and new name                              rename file or folder              
+6.  Move-Item        [-Path] <String> [-Destination <String>] fill with source path and destination path                           move file or folder                  
+7.  Copy-Item        [-Path] <String> [-Destination <String>] fill with source path and destination path                           copy file or folder                
+8.  Remove-Item      [-Path] <String>                         fill with file or folder path                                        delete file or folder              
+9.  Clear-History                                             no parameter needed                                                  clear command history in PowerShell
+10. Get-Command      [-Name <String>]                         fill with command name (optional)                                    show available commands             
+11. Get-Clipboard                                             no parameter needed                                                  get text from clipboard             
+12. Set-Clipboard    [-Value] <String>                        fill with text value                                                 set text into clipboard             
+13. Start-Process    [-FilePath] <String>                     fill with application or file path                                   start application or process       
+14. Get-Process      [-Name <String>]                         fill with process name (optional)                                    show running processes             
+15. Stop-Process     [-Name <String>]                         fill with process name                                               stop running process                           
+16. Get-Timezone                                              no parameter needed                                                  show current time zone                                
+17. Clear-RecycleBin [-Force]                                 use force to skip confirmation                                       clear recycle bin                                      
+18. Restart-Computer [-Force]                                 use force to restart immediately                                     restart computer                                     
+19. Restart-Service  [-Name <String>]                         fill with service name                                               restart Windows service                               
+20. Rename-Computer  [-NewName <String>]                      fill with new computer name                                          rename computer                                        
